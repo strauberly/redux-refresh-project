@@ -4,7 +4,16 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
---6 Oct 2022--
+--10 Oct 2022--
+
+- Lectures on dumb vs smart backends and where to run logic on the frontend with a dumb backend.
+- Lectures for keeping reducers fat with logic but sans useEffect and async.
+- Began syncing up supabase backend for storing a cart.
+- Code incomplete and to be refined. Program inoperable at this time. Resume with api call in app.
+
+---
+
+--9 Oct 2022--
 
 - created cart slice
 - added reducer to index.js
