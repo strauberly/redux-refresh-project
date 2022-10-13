@@ -13,14 +13,17 @@ function App() {
   const showCart = useSelector((state) => state.ui.cartIsVisible);
   const cart = useSelector((state) => state.cart);
 
-  async function submitCart() {
+  const submitCart = async () => {
     await supabase
-      .from({ cart })
-      .insert([{ items: Cart.cartItems, : cartCtx.items }]);
-  }
+      .from("cart")
+      .insert([{ items: cart, total: cart.totalQuantity }]);
+    console.log(JSON.stringify(cart));
+    console.log(JSON.stringify(cart.totalQuantity));
+  };
   useEffect(() => {
     submitCart();
   });
+
   return (
     <Layout>
       {showCart && <Cart />}

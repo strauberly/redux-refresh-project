@@ -4,6 +4,14 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--12 Oct 2022--
+
+- Closer. Objects are at least correct and not simply undefined. However getting a {"message":"No API key found in request"} and 400 response vs a 404 from earlier.
+
+The challenge is the reward.
+
+---
+
 --10 Oct 2022--
 
 - Lectures on dumb vs smart backends and where to run logic on the frontend with a dumb backend.
