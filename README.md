@@ -4,6 +4,20 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--17 Oct 2022--
+
+- Objects are now correctly loaded to supabase backend. So in summary we built a fat reducer, kept are other components clean with side effect.
+
+- Loaded notification resources from Max into UI component and these will be utilized in handling http states and responses.
+
+--12 Oct 2022--
+
+- Closer. Objects are at least correct and not simply undefined. However getting a {"message":"No API key found in request"} and 400 response vs a 404 from earlier.
+
+The challenge is the reward.
+
+---
+
 --10 Oct 2022--
 
 - Lectures on dumb vs smart backends and where to run logic on the frontend with a dumb backend.
