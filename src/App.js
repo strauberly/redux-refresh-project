@@ -16,7 +16,7 @@ function App() {
   const submitCart = async () => {
     await supabase
       .from("cart")
-      .insert([{ items: cart, total: cart.totalQuantity }]);
+      .insert([{ items: cart, totalQuantity: cart.totalQuantity }]);
     console.log(JSON.stringify(cart));
     console.log(JSON.stringify(cart.totalQuantity));
   };
