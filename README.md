@@ -4,6 +4,14 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--18 Oct 2022--
+
+- Setup getting response from cart submission in app.js.
+- Created notification object in ui slice.
+- Created dispatch for all notification scenarios.
+- Altered project so there is not an initial submission on first loading of the page.
+- Currently providing results as expected simulated error by changing env config address and then sending with expected results.
+
 --17 Oct 2022--
 
 - Objects are now correctly loaded to supabase backend. So in summary we built a fat reducer, kept are other components clean with side effect.
