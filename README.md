@@ -12,6 +12,8 @@ Project is built as practice over learned concepts with redux while adding more 
 - Altered project so there is not an initial submission on first loading of the page.
 - Currently providing results as expected simulated error by changing env config address and then sending with expected results.
 
+-Reformatted so that action creators are contained in a thunk and the cart submission notifications and error handling are offloaded to cart-slice for cleaner code.
+
 --17 Oct 2022--
 
 - Objects are now correctly loaded to supabase backend. So in summary we built a fat reducer, kept are other components clean with side effect.
