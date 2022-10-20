@@ -4,6 +4,12 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--19 Oct 2022--
+
+- Migrating action creators to a new cart-actions file in store.
+- Began work on fetching data from backend and populating cart so that the state persists.
+- Response is coming back and trying to set cart but appropriate response formatting needs to be checked.
+
 --18 Oct 2022--
 
 - Setup getting response from cart submission in app.js.
