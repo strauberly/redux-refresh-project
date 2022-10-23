@@ -4,6 +4,10 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--22 Oct 2022--
+
+- Correct formatting is nearly obtained. Object currently appears to be an array versus the desired json object. Some headway at least.
+
 --19 Oct 2022--
 
 - Migrating action creators to a new cart-actions file in store.
