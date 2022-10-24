@@ -4,15 +4,25 @@ Project is built as practice over learned concepts with redux while adding more 
 
 ---
 
+--24 Oct 2022--
+
+- Finally! Achieved desired result after much research. Call from supabase was returning an array and so by altering the call a little we finally started returning a json object as desired and had no need to transform the returned object.
+
+---
+
 --22 Oct 2022--
 
 - Correct formatting is nearly obtained. Object currently appears to be an array versus the desired json object. Some headway at least.
+
+---
 
 --19 Oct 2022--
 
 - Migrating action creators to a new cart-actions file in store.
 - Began work on fetching data from backend and populating cart so that the state persists.
 - Response is coming back and trying to set cart but appropriate response formatting needs to be checked.
+
+---
 
 --18 Oct 2022--
 
@@ -24,11 +34,15 @@ Project is built as practice over learned concepts with redux while adding more 
 
 -Reformatted so that action creators are contained in a thunk and the cart submission notifications and error handling are offloaded to cart-slice for cleaner code.
 
+---
+
 --17 Oct 2022--
 
 - Objects are now correctly loaded to supabase backend. So in summary we built a fat reducer, kept are other components clean with side effect.
 
 - Loaded notification resources from Max into UI component and these will be utilized in handling http states and responses.
+
+---
 
 --12 Oct 2022--
 
